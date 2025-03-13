@@ -1,0 +1,16 @@
+var teclado = require("prompt-sync")();
+console.log("-------------------------");
+console.log("-     calculo media    - ");
+console.log("--------------------------");
+var n1 = parseInt(teclado("digite n\u00FAmero n1: "));
+var n2 = parseInt(teclado("digite n\u00FAmero n2: "));
+var n3 = parseInt(teclado("digite n\u00FAmero n3: "));
+var n4 = parseInt(teclado("digite n\u00FAmero n4: "));
+var n5 = parseInt(teclado("digite n\u00FAmero n5: "));
+var n6 = parseInt(teclado("digite n\u00FAmero n6: "));
+var n7 = parseInt(teclado("digite n\u00FAmero n7: "));
+var n8 = parseInt(teclado("digite n\u00FAmero n8: "));
+var n9 = parseInt(teclado("digite n\u00FAmero n9: "));
+var n10 = parseInt(teclado("digite n\u00FAmero n10:"));
+var media = (n1 + n2 + n3 + n4 + n5 + n6 + n7 + n8 + n9 + n10) / 10;
+console.log("A media " + media);
