@@ -7,4 +7,4 @@ let RAIO : number = teclado(`Raio:`);
 let Altura : number = teclado(`Altura:`);
 let VOLUME : number = 2 * PI * RAIO * RAIO * Altura;
 
-console.log(`O valor da letra é ${VOLUME})`);
+console.log(`O valor da letra é ${VOLUME})`);            
